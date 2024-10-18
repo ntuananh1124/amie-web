@@ -1,0 +1,18 @@
+/* font */
+/* Font 1: Josefin Sans */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    /* Color */
+    --white-color: #ffffff;
+    --sale-color: #E14D43;
+    --hot-color: #E22D2D;
+    --new-color: #438E44;
+    --font-1: 'Josefin Sans', sans-serif;
+    --font-2: 'Open Sans', sans-serif;
+    --main-color: #BC4C2A;
+
+    /* Width-Height */
+    --mag-width-height: 30px;
+    --hot-height: 30px;
+}
