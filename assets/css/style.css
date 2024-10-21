@@ -398,8 +398,8 @@ label {
 /* Section 1 */
 .section-1 {
     background-image: url(../images/bg.jpg);
-    padding: 250px 0;
-    padding-bottom: 230px;
+    padding: 230px 0;
+    padding-bottom: 150px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -418,6 +418,11 @@ label {
 
 .section-1-text h1 {
     text-transform: uppercase;
+    color: white;
+}
+
+.section-1-desc {
+    width: 70%;
     color: white;
 }
 
@@ -458,6 +463,14 @@ label {
     .section-1-btn button {
         padding: 15px 30px;
         font-size: 15px;
+    }
+
+    .section-1-desc {
+        width: 90%;
+    }
+
+    .section-1-desc p {
+        font-size: 14px;
     }
 }
 /* End Responsive */
@@ -887,7 +900,7 @@ label {
 
 /* Section 4 */
 .section-4 {
-    background-image: url(../images/bg2.jpg);
+    background-image: url(../images/bg3.jpg);
     color: white;
     padding: 100px 0 100px 0;
     background-repeat: no-repeat;
