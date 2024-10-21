@@ -16,3 +16,7 @@
     --mag-width-height: 30px;
     --hot-height: 30px;
 }
+
+html {
+    scroll-behavior: smooth;
+}

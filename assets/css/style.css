@@ -404,6 +404,7 @@ label {
     background-position: center;
     background-size: cover;
     position: relative;
+    background-attachment: fixed;
 }
 
 .section-1-main {
@@ -883,6 +884,98 @@ label {
 .inner-footer span i {
     margin-right: 5px;
 }
+
+/* Section 4 */
+.section-4 {
+    background-image: url(../images/bg2.jpg);
+    color: white;
+    padding: 100px 0 100px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section-4-title {
+    margin-bottom: 70px;
+}
+
+.section-4-title h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    position: relative;
+}
+
+.section-4-main ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-4-main ul li {
+    list-style-type: decimal;
+    font-size: 18px;
+}
+
+.section-4-title h1::after {
+    content: "";
+    width: 20px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: -20px;
+    display: inline-block;
+    left: 50%;
+}
+
+/* Responsive */
+@media screen and (max-width: 576px) {
+    .section-4-main {
+        padding: 0 20px 0 20px;
+    }
+    
+    .section-4-main ul {
+        align-items: flex-start;
+    }
+
+    .section-4-main ul li {
+        font-size: 16px;
+    }
+}
+/* End Responsive */
+/* End Section 4 */
+
+/* Section 5 */
+.section-5 {
+    padding: 100px 0 100px 0;
+    background-color: #F6F3EF;
+}
+
+.section-5-title {
+    margin-bottom: 70px;
+}
+
+.section-5-title h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    position: relative;
+}
+
+.section-5-title h1::after {
+    content: "";
+    width: 20px;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: -20px;
+    display: inline-block;
+    left: 50%;
+}
+/* End Section 5 */
 
 /* Section 8 */
 .section-8 {
