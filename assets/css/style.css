@@ -534,7 +534,7 @@ label {
 }
 
 .inner-product-img:hover img {
-    scale: 1.2;
+    transform: scale(1.2);
 }
 
 .inner-product-img::before {
